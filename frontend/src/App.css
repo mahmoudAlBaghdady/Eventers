@@ -1,0 +1,47 @@
+
+
+/* for firefox*/
+:root {
+  scrollbar-color: #378dfc #d9e3f1 !important;
+  scrollbar-width: thin !important;
+}
+
+/*for  Chrome, Edge, and Safari */
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d9e3f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #378dfc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: #d9e3f1 #378dfc;
+}
+
+.carousel .carousel-item {
+  height: 40vh;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: fill;
+  top: 0;
+  left: 0;
+  min-height: 30vh;
+}
+
+  
